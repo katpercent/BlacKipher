@@ -1,0 +1,10 @@
+[package]
+name = "blackipher"
+version = "0.0.1"
+edition = "2024"
+rust-version = "1.85"
+
+[dependencies]
+sodiumoxide = "0.2"   # wrapper Rust pour libsodium
+hex = "0.4"           # pour afficher les clés en hex
+
