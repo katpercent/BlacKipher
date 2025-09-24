@@ -5,6 +5,8 @@ edition = "2024"
 rust-version = "1.85"
 
 [dependencies]
-sodiumoxide = "0.2"   # wrapper Rust pour libsodium
-hex = "0.4"           # pour afficher les clés en hex
-
+sodiumoxide = "0.2"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+hex = "0.4"
+iced = { version = "0.13", features = ["canvas", "tokio"] }
