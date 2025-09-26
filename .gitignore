@@ -1,2 +1,16 @@
-target/
+# Build artifacts
+/target/
+
+# Rust/Cargo specific backup files
+**/*.rs.bk
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# Custom project-specific
 session.json
+
