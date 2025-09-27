@@ -89,7 +89,9 @@ BlacKipher/
 
 ---
 
-## Example Log Breakdown
+## Demo with Log Breakdown
+
+![BlacKipher demo](screenshot/demo.bmp)
 
 When **katpercent** sends the message `hey` to **alice**, the following happens under the hood:
 
@@ -100,10 +102,10 @@ When **katpercent** sends the message `hey` to **alice**, the following happens 
 Sender: katpercent
 Receiver: alice
 Verify(peer.SPK signed by peer.ID) = true
-Ephemeral PK: 798ca381199323f1b0c5a8809aec13606935276ebf9260014c6d07e85eef724d
+Ephemeral PK: eda2220a8baba021f734d864e8bab172395d086ef1f278bc7bf9edb48e9a850d
 DH(ephemeral, peer.SPK): precomputed (32 bytes)
-Nonce: 58baeb82146bdbb4c810accf1975d2a5c36a6b77d69f4a
-Ciphertext: e2bf4898c93f6a543eeb95fd7df01aba78cce3
+Nonce: f8b897f98c25d3fd1e4f75835c13fbbd6611a5c451d53ec1
+Ciphertext: 85ecc46e3245ba98d62b2f95015fb0c82e93d5
 ```
 
 **Explanation:**
@@ -123,8 +125,8 @@ Ciphertext: e2bf4898c93f6a543eeb95fd7df01aba78cce3
 Receiver: alice
 Sender: katpercent
 DH(sender.ephemeral, self.SPK): precomputed (32 bytes)
-Nonce: 58baeb82146bdbb4c810accf1975d2a5c36a6b77d69f4a
-Ciphertext: e2bf4898c93f6a543eeb95fd7df01aba78cce3
+Nonce: f8b897f98c25d3fd1e4f75835c13fbbd6611a5c451d53ec1
+Ciphertext: 85ecc46e3245ba98d62b2f95015fb0c82e93d5
 Plaintext: hey
 ```
 
