@@ -159,6 +159,13 @@ This illustrates how **BlacKipher** uses **ephemeral Diffie-Hellman exchanges** 
 
 ---
 
+## Contributing
+
+Contributions are welcome for **educational improvements** — bug fixes, better documentation, or clearer examples.  
+Please open an issue or a pull request if you’d like to help.
+
+---
+
 ## License
 
 MIT © 2025 [katpercent](https://github.com/katpercent)
